@@ -19,7 +19,7 @@ def weather_Api(city):
         
     
     if not data:
-        print("Failed to retrieve weather.")
+        print("Failed to fetch weather data.")
         return
     else:
         loc = data["location"]
